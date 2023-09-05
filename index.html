@@ -4,9 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal portfolio</title>
-    <link rel="stylesheet" href="style.css">git
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="main.js"></script>
 </head>
 <body>
+  
+  <header class="l-header">
+    <nav class="nav bd-grid">
+    <div>
+        <a href="#" class="nav_logo">Nina Iriboneye</a>
+    </div>
+    <div class="nav_menu" id="nav-menu">
+    <ul class="nav_list">
+      <li class="nav_item"><a href="#Home" class="nav_link active">Home</a></li>
+      <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+      <li class="nav_item"><a href="#skills" class="nav_link">skills</a></li>
+      <li class="nav_item"><a href="#portfolio" class="nav_link">portfolio</a></li>
+      <li class="nav_item"><a href="#contant" class="nav_link">contact</a></li>  
+    </ul>
+  </div>
+  <div class="nav_toggle" id="nav-toggle">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+    </nav> 
+    </header>
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home" id="home">
+        <div class="home_container bd-grid">
+        <h1 class="home_title"><span>He</span>llo.</h1>
+         <div class="home_scroll">
+  <a href="#about" class="home_scroll-link"><i class="fa-solid fa-scroll"></i></i>scroll down</a>
+         </div>
+         <img src="/images/Me.png"  class="home_img">
+        </div>
+        </section>
+        <!--ABOUT-->
+        <section class="about section" id="about">
+         <h2 class="section-title">About</h2>
+         <div class="about_container bd-grid">
+            <div class="about_container bd-grid">
+            <div class="about_img">
+                <img src="/images/nadine1.jpg">
+            </div>
+                <h2 class="about_subtitle">I'am nina iriboneye</h2>
+                <span class="about_profesion">web designer</span>
+                 
+                <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, cum reiciendis. Sed, eius nemo totam odio quidem tempora officiis asperiores commodi q.</p>
+          
+              <div class="about_social">
+               <a href="#" class="about_social-icon"><i class="fa-brands fa-linkedin"></i></i></a>
+               <a href="#" class="about_social-icon"><i class="fa-brands fa-github"></i></i></a>
+               <a href="#" class="about_social-icon"><i class="fa-brands fa-dribbble"></i></a>
+              </div>
+            </div>
+         </div>
+        </section>
+        <!-- skills section-->
+        <section class="skills section" id="skills">
+          <h2 class="section-title">skills</h2>
+          <div class="skills_container bd-grid">
+          <div class="skills_box">
+            <h3 class="skills_subtitle">development</h3>
+            <span class="skills_name">Html</span>
+            <span class="skills_name">css</span>
+            <span class="skills_name">javascript</span>
+            <span class="skills_name">Scss</span>
+            <span class="skills_name">React</span>
+            <span class="skills_name">Vue</span>
+
+            <h2 class="section-title">Design</h2>
+            <span class="skills_name">Figma</span>
+            <span class="skills_name">Adobe XD</span>
+            <span class="skills_name">Adobe XD</span>
+            <span class="skills_name">Photoshop</span>
+         </div>
+         <div class="skills_img">
+        <img src="/images/joanna-kosinska-I3adKpDNAjM-unsplash.jpg">
+         </div>
+          </div>
+        </section>
+        <!--portfolio -->
+        <section class="portfolio section" id="portfolio">
+         <h2 class="section-title">portfolio</h2>
+         <div class="portfolio_container bd-grid">
+          <div class="portfolio_img">
+            <img src="/images/joanna-kosinska-I3adKpDNAjM-unsplash (1).jpg">
+            <div class="portfolio_link">
+                <a href="#" class="portfolio_link-name">view detail</a>
+            </div>
+          </div>
+          <div class="portfolio_img">
+            <img src="/images/joanna-kosinska-I3adKpDNAjM-unsplash.jpg">
+            <div class="portfolio_link">
+                <a href="#" class="portfolio_link-name">view detail</a>
+            </div>
+          </div>
+          <div class="portfolio_img">
+            <img src="/images/mike-tinnion-3ym6i13Y9LU-unsplash.jpg">
+            <div class="portfolio_link">
+                <a href="#" class="portfolio_link-name">view detail</a>
+            </div>
+          </div>
+          <div class="portfolio_img">
+            <img src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg">
+            <div class="portfolio_link">
+                <a href="#" class="portfolio_link-name">view detail</a>
+            </div>
+          </div>
+          <div class="portfolio_img">
+            <img src="/images/gabrielle-henderson-M4lve6jR26E-unsplash.jpg">
+            <div class="portfolio_link">
+                <a href="#" class="portfolio_link-name">view detail</a>
+            </div>
+          </div>
+          <div class="portfolio_img">
+            <img src="/images/christopher-gower-m_HRfLhgABo-unsplash.jpg">
+            <div class="portfolio_link">
+                <a href="#" class="portfolio_link-name">view detail</a>
+            </div>
+          </div>
+         </div>   
+        </section>
+        <!-- Contact-->
+        <section class="contact section" id="contact">
+          <h2 class="section-title">contact</h2> 
+           <div class="contact_container bd-grid">
+            <div class="contact_info">
+                <h3 class="contact_subtitle">EMAIL</h3>
+                <span class="contact_text">info.mail.com</span>
+                <h3 class="contact_subtitle">PHONE</h3>
+                <span class="contact_text">+0786187966</span>
+                <h3 class="contact_subtitle">ADRESS</h3>
+                <span class="contact_text">My country</span>       
+            </div>
+           <form action="" class="contact_form">
+            <div class="contact-inputs">
+             <input type="text" placeholder="name" class="contact_input">
+             <input type="mail" placeholder="Email" class="contact_input">
+            </div>
+            <textarea name="" id="" cols="0" rows="10" class="contact-inputs"></textarea>
+            <input type="submit" value="Enviar" class="contact_button">
+           </form>
+           </div>
+        </section>
+    </main>
+    <!--- FOOTER---->
+    <footer class="footer section">
+     <div class="footer_container bd-grid">
+       <div class="footer_data">
+        <h2 class="footer_title">JHON DOE</h2>
+        <p class="footer_text">I'm jhon Doe and this is my persanal website</p>
+       </div> 
+       <div class="footer_data">
+        <h2 class="footer_title">JHON DOE</h2>
+        <ul>
+            <li><a href="#home" class="footer_link"></a></li>  
+            <li><a href="#about" class="footer_link"></a></li>
+            <li><a href="#skills" class="footer_link"></a></li>
+            <li><a href="#portfolio" class="footer_link"></a></li>
+            <li><a href="#contact" class="footer_link"></a></li>
+        </ul>
+       </div>
+       <div class="footer_data">
+        <h2 class="footer_title">Follow</h2>
+        <a href="#" class="footer_social"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="footer_social"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="footer_social"><i class="fa-brands fa-twitter"></i></i></a>
+       </div>
+     </div>
     
+    </footer>
+    <!----- SCROLL REVEAL ----->
+    <script src="https:unpkg.com/scrollreveal"></script>
+    <!-- Main js-->
+    <script src="main.js"></script>
 </body>
 </html>
