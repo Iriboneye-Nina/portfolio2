@@ -395,7 +395,7 @@ img{
         row-gap: 0;
     }
     .home_img{
-        width: 524;
+        width: 524px;
         right: 10%; 
     }
     .about_container{
@@ -430,5 +430,11 @@ img{
     .footer_container{
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
+    }
+}
+@media screen and (min-width: 1024px){
+    .bd-grid{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
